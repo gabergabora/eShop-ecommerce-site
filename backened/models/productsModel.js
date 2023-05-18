@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 //////////// reviews Schema of customer   ///////////
 
-const reviewsSchema = mongoose.Schema(
+const reviewsSchema = mongoose.Schema(        
   {
     name: {
       type: String,
